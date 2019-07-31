@@ -1,0 +1,89 @@
+===========	TEMPDIR4JAVA	===========
+#tmp_dir	tmp_dir		/GPFS01/JavaTemp
+===========	SOFTWARE	===========
+#software	intervar	/GPFS01/softwares/InterVar-master
+#software	java		/bin/java
+#software	java17		/GPFS01/softwares/jdk1.7.0_79/bin/java
+#software	trimmomatic	/GPFS01/softwares/Trimmomatic-0.36/trimmomatic-0.36.jar
+#software	pigz		/GPFS01/softwares/pigz-2.3.4/pigz
+#software	unpigz		/GPFS01/softwares/pigz-2.3.4/unpigz
+#software	bwa		/GPFS01/softwares/bwa-0.7.12/bwa
+#soft_dir	picard		/GPFS01/softwares/picard-tools-1.119
+#software	picard25	/GPFS01/softwares/picard-tools-2.5.0/picard.jar
+#software	pindel		/GPFS01/softwares/pindel-0.2.5b8
+#software	socrates	/GPFS01/softwares/socrates/socrates-1.13.1-jar-with-dependencies.jar
+#software	gatk		/GPFS01/home/njsh/softwares/gatk-4.1.2.0/gatk
+#software	bedtools	/GPFS01/softwares/bedtools-2.18.0/bin/bedtools
+#software	samtools	/GPFS01/softwares/samtools-1.2/samtools
+#software	varscan		/GPFS01/softwares/VarScan/VarScan.v2.3.9.jar
+#software	varscan242	/GPFS01/softwares/VarScan/VarScan.v2.4.2.jar
+#software	varscan243	/GPFS01/softwares/VarScan/VarScan.v2.4.3.jar
+#software	parallel	/GPFS01/softwares/parallel-20170422/bin/parallel
+#software	annovar		/GPFS01/softwares/annovar-20160425
+#software	caller		/GPFS01/softwares/scripts/universal/NJSH_caller.py
+#software	vep83		/GPFS01/softwares/ensembl-tools-release-83/scripts/variant_effect_predictor/variant_effect_predictor.pl
+#software	gemini		/GPFS01/softwares/gemini/bin/gemini
+#software	oncotator	/GPFS01/softwares/oncotator/oncotator-1.9.2.0/oncotator/Oncotator.py
+#software	snpEff		/GPFS01/softwares/snpEff/snpEff.jar
+#software	java18		/GPFS01/softwares/jdk1.8.0_91_x64/bin/java
+===========	DATABASE	===========
+#database	exac_ac		/GPFS01/home/njsh/databases/GeneticDB/ExAC/release0.3.1/ExAC_AC.tsv
+#database	exac_pli	/GPFS01/home/njsh/databases/GeneticDB/ExAC/release0.3.1/fordist_cleaned_exac_r03_march16_z_pli_rec_null_data_ensg.txt
+#database	genemap2	/GPFS01/home/njsh/databases/GeneticDB/OMIM/20170314/genemap2ClnSynopsis.txt
+#database	hgmd		/GPFS01/home/njsh/databases/GeneticDB/HGMD/2016.4/hgmd_PRO_2016.4_hg19_combbine.csv
+#database	oncotator_db	/GPFS01/softwares/oncotator/oncotator_v1_ds_April052016
+#database	annovar_db	/GPFS01/softwares/annovar-20160425/humandb
+#database	cosmic71	/GPFS01/databases/GSCAP/Cosmic71.txt
+#database	probefrq	WGS849
+#database	intron2check	/GPFS01/databases/GSCAP/intron2check.txt
+#database	Transcript_CLN	/GPFS01/databases/GSCAP/Clinical_Transcript.tab
+#database	NonFlagged	/GPFS01/databases/GSCAP/hg19_snp138NonFlagged_rs.txt
+#database	qc_fa		/GPFS01/databases/GSCAP/adapters4qc.fasta
+#database	ref		/GPFS01/databases/GSCAP/hg19.fa
+#database	hg19_factera_bed	/GPFS01/databases/GSCAP/hg19_factera.bed
+#database	hg19_2bit	/GPFS01/databases/GSCAP/hg19.2bit
+#database	sv_adjacent	/GPFS01/databases/GSCAP/sv.adjacent
+#database	sv_known	/GPFS01/databases/GSCAP/sv.known
+#database	sv_bad		/GPFS01/databases/GSCAP/sv.bad
+#database	sv_same_bad	/GPFS01/databases/GSCAP/sv.same.bad
+#database	hg19_socrates	/GPFS01/databases/GSCAP/hg19_socrates.bed
+#database	chimerDB	/GPFS01/databases/GSCAP/ChimerDB3.dat
+#database	indel_gsdb	/GPFS02/zhengmy/WGS_Pip/WGS2019_hg19/GSDB_INDEL.vcf
+#database	snp_gsdb	/GPFS02/zhengmy/WGS_Pip/WGS2019_hg19/GSDB_SNP.vcf
+#database	indel_1000g	/GPFS02/zhengmy/WGS_Pip/WGS2019_hg19/1000G_phase1.indels.hg19.vcf
+#database	indel_mills	/GPFS02/zhengmy/WGS_Pip/WGS2019_hg19/Mills_and_1000G_gold_standard.indels.hg19_cc.vcf
+#database	snp_dbsnp	/GPFS02/zhengmy/WGS_Pip/WGS2019_hg19/dbsnp_138.hg19_cc.vcf
+#database	pindel_filter	/GPFS01/databases/GSCAP/pindel.filter
+#database	key_rs		/GPFS01/databases/GSCAP/key_rs.txt
+#database	vep83db		/GPFS01/databases/VEPDB/VEP83
+#database	ensembl_fa	/GPFS01/databases/VEPDB/hg19_vep.fa
+#database       germline        /GPFS01/home/njsh/databases/GSCAP/germline.txt
+===========	Panel&Sequencer	===========
+#database       call_target     /GPFS01/databases/GSCAP/db_for_WGS/WGS.bed      #@call file for mutation
+#database	target		/GPFS01/databases/GSCAP/db_for_WGS/WGS.bed	#@call file for mutation
+#database	rawbed		/GPFS01/databases/GSCAP/db_for_WGS/WGS.bed	#@calculate for ontarget and depth
+#database	addbed		/GPFS01/databases/GSCAP/db_for_WGS/WGS.bed	#@calculate for ontarget
+#database	NewbornGene	/GPFS01/home/njsh/databases/GeneticDB/Newborn.gene.list
+===========     MSI             ===========
+#softawre       msi_samtools    /GPFS01/home/njsh/scripts/GeneseeqMSIAnalysisToolkit/softwares/samtools
+#software       msi_varscan     /GPFS01/home/njsh/scripts/GeneseeqMSIAnalysisToolkit/softwares/VarScan.v2.3.7.jar
+#database       msibaseline     /GPFS01/home/njsh/databases/GSCAP/db_for_msi/baseline_hiseqX_N101_201611.txt
+#database       msi_bed         /GPFS01/home/njsh/databases/GSCAP/db_for_msi/msi_cc.bed
+#database       msi_bed_extend  /GPFS01/home/njsh/databases/GSCAP/db_for_msi/msi_cc_extend100.bed
+#database       msi_intervals   /GPFS01/home/njsh/databases/GSCAP/db_for_msi/msi_cc.msi_intervals
+#database       pindel_bed_416_genes    /GPFS01/databases/GSCAP/db_for_201601/pindel_416_genes.bed      #@call file for pindel
+#database       badsnv          /GPFS01/databases/GSCAP/db_for_HiSeq4k/bad.snv          #@delete whatever
+#database       BAD_badsnv      /GPFS01/databases/GSCAP/db_for_HiSeq4k/BAD_bad.snv              #@delete with strand bias
+#database       pindel_bed_416_genes    /GPFS01/databases/GSCAP/db_for_201601/pindel_416_genes.bed      #@call file for pindel
+#database       low_maf_bad     /GPFS01/databases/GSCAP/db_for_HiSeq4k/low_maf_bad.snv  #@delete mutation when vaf low
+#database       rb1infos        /GPFS01/databases/GSCAP/db_for_HiSeq4k/rb1.infos.201601         #@baseline file for RB1 gene
+#database       egfrinfos25     /GPFS01/databases/GSCAP/db_for_HiSeq4k/egfr.infos.2.5.201601X   #@baseline file for EGFR gene
+#database       ctdna_check_low /GPFS01/databases/GSCAP/db_for_201601/ctdna_low_af.site         #@check low vaf for ctdna
+#database       erbb2infos25    /GPFS01/databases/GSCAP/db_for_201601/erbb2.infos2.5X.201601    #@erbb2 baseline file
+#database       baseline_exon   /GPFS01/databases/GSCAP/db_for_201702/201702_exon_baseline_t_fit.tsv
+#database       baseline_gene   /GPFS01/databases/GSCAP/db_for_201702/201702_gene_baseline_t_fit.tsv
+#database       cnv_tfit_bed    /GPFS01/databases/GSCAP/db_for_201702/201702_CNV_t_fit.bed
+#software	picard294	/GPFS01/softwares/picard-tools-2.9.4/picard_2.9.4.jar
+#database	hotspot	/GPFS01/databases/GSCAP/CosmicCodingMutsCnt20.vcf
+#software	msdetector	/GPFS01/softwares/msdetector/msdetector.sh
+#database	tmb_badinterval	/GPFS01/databases/GSCAP/bad_interval.site
