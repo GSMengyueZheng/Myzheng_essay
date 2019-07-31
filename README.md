@@ -3,7 +3,7 @@ Some essays were written by ZhengMy, and we hope one can give support for you!
 
 ## 1 ComplexMutation Detection
 ```python
-python /GPFS02/zhengmy/code/CPXDetection_hs37d5.py -h
+python CPXDetection_hs37d5.py -h
 usage: CPXDetection_hs37d5.py [-h] [-v] -id CASEID [-cp CPXPATH] [-mp MUTPATH]
                               [-rp RAWPATH] [-lp LOGPATH] [-op RESPATH]
 
