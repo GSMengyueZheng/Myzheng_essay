@@ -22,8 +22,21 @@ optional arguments:
                         Full path to the log file
   -op RESPATH, --respath RESPATH
                         Full path to the output directory
+                        
+example:
+path:  /GPFS02/zhengmy/Clincal_Pipeline/ComplexMutation/Test3/Try2
+eg:  python /GPFS02/zhengmy/code/CPXDetection_hs37d5.py -id ct-B190321194866-Y189-CLN-KY295-T -lp OUT/ -op OUT/
+
 ```
 
 ## 2 WGSporadic_2019 for Rare Genetic Disease
+
+
+
+example: python WGSporadic_Main_2019.py PUM_2019.WGS id.dic > dic.sh
+         bb -c 9 dic.sh -o big
+
 ## 3 Mutation Signature Plot
-## 4 
+signature PLOT and trinucleotide PLOT and nucleotide PLOT
+
+## 4 ... 
