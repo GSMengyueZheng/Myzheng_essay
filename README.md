@@ -30,13 +30,15 @@ eg:  python /GPFS02/zhengmy/code/CPXDetection_hs37d5.py -id ct-B190321194866-Y18
 ```
 
 ## 2 WGSporadic_2019 for Rare Genetic Disease
-
-
-
+```
 example: python WGSporadic_Main_2019.py PUM_2019.WGS id.dic > dic.sh
          bb -c 9 dic.sh -o big
+```
 
 ## 3 Mutation Signature Plot
-signature PLOT and trinucleotide PLOT and nucleotide PLOT
+### signature PLOT and trinucleotide PLOT and nucleotide PLOT
+```
+python Calculate.py All_noindel.txt All_noindel.out1 All_noindel.out2 All_noindel
+```
 
 ## 4 ... 
